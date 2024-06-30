@@ -1,6 +1,6 @@
 <h1>Hi, I'm Nick! <br/><a href="https://github.com/techwithnick">Programmer</a>, <a href="https://www.linkedin.com/in/belsitonicholas/">IT Professional</a>, <a>Veteran</a></h1>
 
-<h2>👨‍💻 My Projects and Portfolios I Have Created</h2>
+<h2>👨‍💻 Projects and Portfolios I Have Created</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
   - [#1](https://github.com/)

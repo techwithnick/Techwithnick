@@ -11,6 +11,7 @@
 - [Microsoft Certified: Azure Fundamentals AZ-900](https://www.youtube.com/)
 - [Google IT Support](https://www.youtube.com/)
 - [Career Essentials in Cybersecurity by Microsoft and LinkedIn](https://www.youtube.com/)
+- [Introduction to Data Engineering by IBM](https://www.youtube.com/)
 - [Splunk Search Expert 101](https://www.youtube.com/)
 
 - <h2>🗓️ Certifications I'm Focusing On Currently</h2>

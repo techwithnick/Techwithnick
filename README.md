@@ -10,12 +10,10 @@
 - <b>Azure runbook created (Powershell) to gather AWS Identity Center data from several AWS environments, and place the data in an Azure table.</b>
 - <b>Azure runbook created (Powershell) to migrate group membership from oldgroup -> new group.</b>
 - <b>Azure runbook created (Powershell) to transfer PIM group membership from active PIM to PIM eligible.</b>
-
-
+- <b>Azure Subscription Tagging.</b>
+- <b>AWS Account Tagging.</b>
 
 <h3 align="center">Cloud Computing & DevOps</h3>
-
-
 <div align="center">
   <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
     <thead>

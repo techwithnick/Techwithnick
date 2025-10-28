@@ -1,4 +1,4 @@
-<h1>Hi, I'm Nick! <br/><a href="https://github.com/techwithnick">Enterprise Cloud Engineer</a>, <a href="https://www.linkedin.com/in/belsitonicholas/">EProfessional</a>, <a>Veteran</a></h1>
+<h1>Hi, I'm Nick! <br/><a href="https://github.com/techwithnick">Enterprise Cloud Engineer</a>, <a href="https://www.linkedin.com/in/belsitonicholas/">Automation Geek</a>, <a>Veteran</a></h1>
 
 <h2>👨‍💻 Projects and Portfolios I Have Created</h2>
 

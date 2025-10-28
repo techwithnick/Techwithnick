@@ -78,7 +78,7 @@ $AllowedPrefixes   = @('Test')
 $AllowedClouds     = @('AZ','AWS','AWSIL2','AWSIL45')
 $AllowedLevels     = @('2','4','5')
 $AllowedEnvLetters = @('D','T','P')
-$AzureRoles        = @('CG_Owner','CG_Contributor','CG_DBAdmin','CG_DevOps','CG_CostMGMT')
+$AzureRoles        = @('Owner','Contributor','DBAdmin','DevOps','CostMGMT')
 $AwsRoles          = @('Admin','SysAdmin','DBAdmin','DevOps','CostMGMT')
 
 # =========================== Config to EDIT ===================================

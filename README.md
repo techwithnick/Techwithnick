@@ -7,7 +7,7 @@
 
 <h2>🎉 Certifications</h2>
 
-- [Microsoft Certified: Azure Administrator Associate](https://www.youtube.com/)
+- [Microsoft Certified: Azure Administrator Associate AZ-104](https://www.youtube.com/)
 - [Microsoft Certified: Azure Fundamentals AZ-900](https://www.youtube.com/)
 - [CompTIA Security +](https://www.youtube.com/)
 - [CompTIA A+](https://www.youtube.com/)

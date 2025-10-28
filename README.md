@@ -7,8 +7,10 @@
 
 <h2>🎉 Certifications</h2>
 
-- [CompTIA Security +](https://www.youtube.com/watch?v=a83ASGn_V_s)
+- [Microsoft Certified: Azure Administrator Associate](https://www.youtube.com/)
 - [Microsoft Certified: Azure Fundamentals AZ-900](https://www.youtube.com/)
+- [CompTIA Security +](https://www.youtube.com/)
+- [CompTIA A+](https://www.youtube.com/)
 - [Google IT Support](https://www.youtube.com/)
 - [Career Essentials in Cybersecurity by Microsoft and LinkedIn](https://www.youtube.com/)
 - [Introduction to Data Engineering by IBM](https://www.youtube.com/)

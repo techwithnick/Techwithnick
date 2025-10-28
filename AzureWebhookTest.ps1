@@ -4,11 +4,11 @@
 
 .BODY (JSON posted to webhook)
   {
-    "Prefix":"USCG",
+    "Prefix":"Test",
     "Cloud":"AZ",
     "Level":"4",
     "Env":"D",
-    "Role":"CG_Owner",
+    "Role":"Owner",
     "Owners":["owner@contoso.com"],     // optional
     "Members":["member@contoso.com"],   // optional
     "EnablePIM": false                  // optional (PIM stub)
@@ -55,11 +55,11 @@ function Try-Step {
 
 # =========================== Role Policy (for future PIM) =====================
 $AzRolePolicies = @{
-  'CG_Owner'       = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$true;  ApproverGroup='US Navy'; Duration='PT1H' }
-  'CG_Contributor' = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
-  'CG_DBAdmin'     = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
-  'CG_DevOps'      = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
-  'CG_CostMGMT'    = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
+  'Owner'       = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$true;  ApproverGroup='US Navy'; Duration='PT1H' }
+  'Contributor' = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
+  'DBAdmin'     = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
+  'DevOps'      = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
+  'CostMGMT'    = @{ Cloud='AZ';  PermanentEligible=$true; Approval=$false; ApproverGroup=$null;     Duration='PT4H' }
 }
 $AwsRolePolicies = @{
   'Admin'   = @{ Cloud='AWS'; PermanentEligible=$true; Approval=$true;  ApproverGroup='US Navy'; Duration='PT1H' }
@@ -74,7 +74,7 @@ function Get-RolePolicy {
 }
 
 # =========================== Allowed Inputs ===================================
-$AllowedPrefixes   = @('USCG')
+$AllowedPrefixes   = @('Test')
 $AllowedClouds     = @('AZ','AWS','AWSIL2','AWSIL45')
 $AllowedLevels     = @('2','4','5')
 $AllowedEnvLetters = @('D','T','P')
@@ -83,9 +83,9 @@ $AwsRoles          = @('Admin','SysAdmin','DBAdmin','DevOps','CostMGMT')
 
 # =========================== Config to EDIT ===================================
 $EnterpriseAppsByPrefix = @{
-  'USCG' = 'AWS IAM Identity Center (successor to AWS Single Sign-On)'  # <-- EDIT if needed
+  'Test' = 'AWS IAM Identity Center (successor to AWS Single Sign-On)'  # <-- EDIT if needed
 }
-$DefaultAwsAppRoleId = [guid]'8774f594-1d59-4279-b9d9-59ef09a23530'    # <-- EDIT to your actual GUID
+$DefaultAwsAppRoleId = [guid]'#INPUTGUID'    # <-- EDIT to your actual GUID
 
 # =========================== Graph Utilities & Helpers ========================
 function Get-GroupByName {
